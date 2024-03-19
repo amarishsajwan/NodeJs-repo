@@ -13,7 +13,7 @@ const errorRoutes = require("./controllers/errors");
 const User = require("./models/user");
 
 const MONGODB_URI =
-  "mongodb+srv://Amarish:12345@cluster0.dpkrqfa.mongodb.net/shop";
+  "mongodb+srv://<UserName>:<password>@cluster0.dpkrqfa.mongodb.net/shop";
 
 const app = express();
 const store = new MongoDBStore({
